@@ -26,7 +26,7 @@ export default function Navigation() {
 
     return (
         <header className={
-            sticky ? "sticky nav" : "flex items-center justify-between px-10 py-5 text-3xl"
+            sticky ? "sticky nav" : "flex items-center justify-between px-10 py-5 text-2xl"
         }>
             <div>
                 <a href='#home'>Ellie.</a>
