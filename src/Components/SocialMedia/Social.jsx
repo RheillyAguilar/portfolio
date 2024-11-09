@@ -28,19 +28,19 @@ export default function Social() {
             <div className="fixed bottom-10 right-5 flex flex-col items-center gap-5 ">
                 {
                     open ?
-                        <div className="flex flex-col items-center gap-2.5">
-                            <Link to='https://www.facebook.com/rheilly.aguilar.03' target="_blank" className="bg-[#2b2d42] text-2xl px-4 py-2.5 rounded-[50%] text-white">
+                        <div className="flex flex-col items-center justify-center gap-2.5">
+                            <Link to='https://www.facebook.com/rheilly.aguilar.03' target="_blank" className="bg-[#2b2d42] text-2xl w-10 h-10 rounded-[50%] text-white flex justify-center items-center">
                                 <FontAwesomeIcon icon={faFacebook} />
                             </Link>
-                            <Link to='https://www.linkedin.com/in/rheilly-aguilar-5254a1193/' target="_blank" className="bg-[#2b2d42] text-2xl px-4 py-2.5 rounded-[50%] text-white">
+                            <Link to='https://www.linkedin.com/in/rheilly-aguilar-5254a1193/' target="_blank" className="bg-[#2b2d42] text-2xl w-10 h-10 rounded-[50%] text-white flex justify-center items-center">
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </Link>
-                            <Link to='https://github.com/RheillyAguilar' target="_blank" className="bg-[#2b2d42] text-2xl px-4 py-2.5 rounded-[50%] text-white">
+                            <Link to='https://github.com/RheillyAguilar' target="_blank" className="bg-[#2b2d42] text-2xl w-10 h-10 rounded-[50%] text-white flex justify-center items-center">
                                 <FontAwesomeIcon icon={faGithub} />
                             </Link>
                             <button 
                             onClick={handleMessage}
-                            className="bg-[#2b2d42] text-2xl px-4 py-2.5 rounded-[50%] text-white">
+                            className="bg-[#2b2d42] text-2xl w-10 h-10 rounded-[50%] text-white flex justify-center items-center">
                                 <FontAwesomeIcon icon={faMessage} />
                             </button>
                         </div>
@@ -48,7 +48,7 @@ export default function Social() {
                         ''
                 }
                 <button
-                    className="bg-[#2b2d42] text-2xl px-4 py-2.5 rounded-[50%] text-white"
+                    className="bg-[#2b2d42] text-2xl w-10 h-10 rounded-[50%] text-white"
                     onClick={handleOpen}
                 >
                     {
